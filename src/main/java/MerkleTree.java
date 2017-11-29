@@ -75,4 +75,8 @@ class MerkleTree {
       }
     }
   }
+
+  int size() {
+    return blocks.size();
+  }
 }
